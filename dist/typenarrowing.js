@@ -8,3 +8,12 @@ function printValue(value) {
     }
 }
 printValue(2);
+function checkUser(user) {
+    if (user === null) {
+        console.log("user not found");
+    }
+    else {
+        console.log(user.toUpperCase());
+    }
+}
+checkUser(null);

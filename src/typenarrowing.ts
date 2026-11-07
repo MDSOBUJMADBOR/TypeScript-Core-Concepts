@@ -9,3 +9,16 @@ function printValue(value: string | number): void {
 }
 
 printValue(2)
+
+
+
+
+function checkUser ( user: string | null): void {
+    if(user === null) {
+        console.log("user not found");
+    }else {
+        console.log(user.toUpperCase());
+    }
+}
+checkUser(null)
+
